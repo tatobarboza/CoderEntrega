@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DMG Calzados</title>
+    <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <div class="div__mp-header">
+            <p>Descuentos especiales abonando con Mercadopago</p>
+            <img class="div__img-mp" src="../assets/images/FormaDePago10.png" alt="Logo de MercadoPago">
+        </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">DMG Calzados</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">Novedades</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./zapatos.html">Zapatos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./zapatillas.html">Zapatillas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./preguntas-frecuentes.html">Preguntas Frecuentes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./form.html">Devoluciones</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <h1 class="h1-formulario">Formulario</h1>
+    <div>
+    <div class="formulario">
+        <form action="formulario">
+            
+            <br>
+            <label for="nombre">Nombre</label>
+            <br>
+            <input type="text" name="nombre" required>
+            <br>
+            <label for="email">E-mail</label>
+            <br>
+            <input type="email" name="email">
+            <br>
+            <input class="form-radio" type="radio" name="motivo" value="consulta" required checked> Consulta<br>
+            <input class="form-radio" type="radio" name="motivo" value="devolucion" required> Devolución <br>
+            <input class="form-radio" type="radio" name="motivo" value="otro" required> Otro <br>
+            <textarea name="" id="" cols="70" rows="10" placeholder="Cuentenos cómo podemos ayudarlo."></textarea> <br>
+            <label for="pais">Selecciona tu país de residencia</label><br>
+            <select name="pais">
+                <option value="Argentina">Argentina</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Chile">Chile</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Uruguay">Uruguay</option>
+            </select><br>
+            <input type="reset">
+            <input class="enviar" type="submit" value="Enviar"> <br>
+        </form>
+    </div>
+    </div>
+<footer>
+    <div class="cont-footer">
+        
+        <div>
+            <h3 class="footer_h3">Navegación</h3>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Volver al inicio</a></li>
+                    <li><a href="./zapatillas.html">Zapatillas</a></li>
+                    <li><a href="./zapatos.html">Zapatos</a></li>
+                    <li><a href="./quienes-somos.html">Quienes somos</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="seccion-footer">
+            <nav>
+            <h3 class="footer_h3">Enterate de todo!</h3>
+                <ul>
+                    <li><a href="https://instagram.com/dmg_calzados">Instagram</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="seccion-footer">
+            <nav>
+                <h3 class="footer_h3">Atención al cliente</h3>
+                <ul>
+                    <li>Lunes a Viernes de 9 a 20 hs / Sábado de 9 a 17 hs</li>
+                    <li><a href="https://www.whatsapp.com/catalog/5491132076996/?app_absent=0" target=”_blank”>Whatsapp</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="seccion-footer">
+            <nav>
+                <ul>
+                    <li><a href="./preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
+                    <li><a href="https://autogestion.produccion.gob.ar/consumidores" target=”_blank”>Defensa del consumidor</a></li>
+                    <li><a href="./form.html">Botón de arrepentimiento</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    </footer>  
+    <p class="derechos-footer">Todos los derechos reservados <b>DMG Calzados©</b> 2023</p>
+    <div class="whatsapp-icon">
+        <a href="https://www.whatsapp.com/catalog/5491132076996/?app_absent=0" target=”_blank”>
+        <img class="whatsapp-iconimage"src="../assets/images/whatsapp.png" alt="Logo de whatsapp" title="Logo de whatsapp para comunicarse con dmg calzados"></a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
